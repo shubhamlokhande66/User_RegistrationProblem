@@ -24,7 +24,7 @@ case $choice in
 	;;
 	4)
 	#Mobile Number Valid Or NOT
-	pattern='^(91)[ ][0-9]{10}$'
+	pattern='^([+]\d{2}[ ])?\d{10}$'
 	;;
 	5)
 	#Password in that min one Cap ,numbar, special Character, Valid Or NOT

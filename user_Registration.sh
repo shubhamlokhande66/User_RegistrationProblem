@@ -11,11 +11,11 @@ read -p "Read From User : " word
 
 case $choice in
 	1)
-	#First name starts with Cap and has minimum 3 characters
+	#First name 
 	pattern='^[A-Z]{1}[a-zA-Z]{2,}$'
 	;;
 	2)
-	#Last name starts with Cap and has minimum 3 characters
+	#Last name 
 	pattern='^[A-Z]{1}[a-zA-Z]{2,}$'
 	;;
 	3)
